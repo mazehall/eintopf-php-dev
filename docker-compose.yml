@@ -1,0 +1,11 @@
+web:
+  image: tetraweb/php:5.6-cli
+  environment:
+    - VIRTUAL_HOST=php.dev
+    - WITH_XDEBUG=1
+  volumes:
+    - /projects/php-dev:/app
+    - conf.d:/usr/local/etc/php/conf.d
+  expose:
+    - 80
+  command: sh -c 'php -S 0.0.0.0:80 -t /app'
