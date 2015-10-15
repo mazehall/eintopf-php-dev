@@ -29,7 +29,7 @@ Clone this [project description](https://github.com/mazehall/eintopf-php-dev) in
 
 ### 2. Set your project name
 
-fw change the project name to properly use your new project description in Eintopf. To do that you have to change the "name" properties in the package.json file:
+Change the project name to properly use your new project description in Eintopf. To do that you have to change the "name" properties in the package.json file:
 
     ~/.eintopf/configs/my-php-app/package.json
     {
