@@ -10,7 +10,10 @@ Eintopf is a pot with the mixture of the smart development tools Docker, Vagrant
 
 ## Development ready
 
-Xdebug is enabled by default and can be used without further configuration.
+- All extensions are compiled and ready for loading with docker-php-ext-enable
+- Popular external extensions mongo and redis installed
+- Composer and mail client installed
+- xdebug enabled by default and usable without further configuration
 
 Full documentation of the development environment [here](https://hub.docker.com/r/tetraweb/php/).
 
