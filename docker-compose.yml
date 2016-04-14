@@ -4,7 +4,7 @@ web:
     - VIRTUAL_HOST=php.dev
     - WITH_XDEBUG=1
   volumes:
-    - /projects/php-dev:/app
+    - ${PROJECT_PATH}/web:/app
     - conf.d:/usr/local/etc/php/conf.d
   expose:
     - 80
