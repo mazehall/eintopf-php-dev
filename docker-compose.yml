@@ -8,4 +8,4 @@ web:
     - conf.d:/usr/local/etc/php/conf.d
   expose:
     - 80
-  command: sh -c 'php -S 0.0.0.0:80 -t /app'
+  command: sh -c 'php -S 0.0.0.0:80 -t /app/public'
