@@ -1,5 +1,5 @@
 web:
-  image: tetraweb/php:5.6-cli
+  image: tetraweb/php:5.6
   environment:
     - VIRTUAL_HOST=php.dev
     - WITH_XDEBUG=1
